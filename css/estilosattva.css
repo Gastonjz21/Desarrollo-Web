@@ -1,11 +1,60 @@
 body {
-    background:fff;
+    background:#EEFFF7;
+   
 }
 
 h1 {
     font-size: 6em;
     color: rgba(97, 168, 36);
+    position: absolute;
+    top: -70px;
+    bottom: 0;
+    right: 0;
+    left: 41%;
 }
 
+nav ul li{
+    text-align: center;
+    display: inline;
+    background: #2DFD9D;
+    float: left;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 39%;
+    padding: 10px;
+}
+
+section {
+    text-align: center;
+    line-height: 15px;
+}
+
+div img {
+    position: relative;
+    top: 35px;
+    bottom: 0;
+    right: 0;
+    left: 5%;
+}
+
+div aside ul li {
+    text-align: center;
+    display: inline;
+    background: #2DFD9D;
+    float: left;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 42%;
+    padding: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
 
 
