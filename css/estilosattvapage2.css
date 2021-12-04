@@ -13,6 +13,9 @@ header {
     padding: 10px 20px;
 }
 
+header h1 {
+    font-size: 70px;
+}
 
 h1 {
     font-size: 3em;
@@ -21,7 +24,7 @@ h1 {
     top: 5%;
     bottom: 0;
     right: 0;
-    left: 35%;
+    left: 30%;
 }
 
 nav ul li{
@@ -33,7 +36,7 @@ nav ul li{
     top: 0;
     bottom: 0;
     right: 0;
-    left: 45%;
+    left: 44.7%;
     box-shadow: 0px 5px 0px #26DA87
 }
 

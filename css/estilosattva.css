@@ -110,6 +110,7 @@ div nav ul li :visited {
 }
 
 footer {
+    background: #fff;
     text-align: center;
     padding: 10px;
 }
@@ -124,4 +125,49 @@ border-radius: 50px;
 border-right: 2px solid #fff;
 }
 
+form {
+    text-align: center;
+    width: 25%;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    left: 35%;
+}
 
+input, textarea{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #00CD08;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #93FF97;
+
+}
+
+textarea {
+    resize: vertical;
+    max-height: 200px;
+    min-height: 20px;
+}
+
+input[type= "submit"] {
+    background: #2DFD9D;
+    border: none;
+}
+
+input[type= "submit"]:hover {
+    background: #A5FFD6;
+    cursor: pointer;
+}
+
+.cajatexto::-webkit-scrollbar {
+    width: 10px;
+}
+
+.cajatexto::-webkit-scrollbar-thumb {
+background: rgba(0, 237, 7, 0.5);
+border-radius: 50px;
+border-right: 2px solid #fff;
+}
