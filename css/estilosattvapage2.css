@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background:#EEFFF7;
    
@@ -7,7 +12,7 @@ h1 {
     font-size: 3em;
     color: rgba(97, 168, 36);
     position: absolute;
-    top: -5px;
+    top: 5%;
     bottom: 0;
     right: 0;
     left: 35%;
@@ -22,7 +27,7 @@ nav ul li{
     top: 0;
     bottom: 0;
     right: 0;
-    left: 43%;
+    left: 45%;
     box-shadow: 0px 5px 0px #26DA87
 }
 

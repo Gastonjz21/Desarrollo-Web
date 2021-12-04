@@ -1,16 +1,21 @@
-body {
-    background:#EEFFF7;
-   
+* {
+    margin: 0;
+    padding: 0;
 }
+
+
+body {
+    background:#EEFFF7;}
+
 
 h1 {
     font-size: 6em;
     color: rgba(97, 168, 36);
     position: absolute;
-    top: -70px;
+    top: 10px;
     bottom: 0;
     right: 0;
-    left: 40%;
+    left: 40.5%;
 }
 
 nav ul li{
@@ -22,9 +27,14 @@ nav ul li{
     top: 0;
     bottom: 0;
     right: 0;
-    left: 43%;
+    left: 45%;
     box-shadow: 0px 5px 0px #26DA87;
     color: black;
+    overflow: hidden;
+}
+
+main {
+    margin: 10%;
 }
 
 li a {
@@ -55,7 +65,7 @@ div aside ul li {
     top: 0;
     bottom: 0;
     right: 0;
-    left: -2%;
+    left: 0;
     box-shadow: 0px 5px 0px #26DA87
 }
 
@@ -95,6 +105,7 @@ div nav ul li :visited {
 
 footer {
     text-align: center;
+    padding: 10px;
 }
 
 
