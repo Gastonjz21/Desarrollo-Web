@@ -5,7 +5,13 @@
 
 
 body {
-    background:#EEFFF7;}
+    background:#EEFFF7;
+}
+
+header {
+    background: #fff;
+    padding: 10px 20px;
+}
 
 
 h1 {
@@ -106,6 +112,16 @@ div nav ul li :visited {
 footer {
     text-align: center;
     padding: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+background: rgba(0, 237, 7, 0.5);
+border-radius: 50px;
+border-right: 2px solid #fff;
 }
 
 
